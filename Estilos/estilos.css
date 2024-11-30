@@ -47,7 +47,7 @@ table, th, tr, td{
     margin: auto;
 }
 body{
-    background-image: url(images/tienda-game-gran-via-hortaleza.jpg);
+    background-image: url(../images/tienda-game-gran-via-hortaleza.jpg);
     background-size: cover;
 }
 #tiempolimitado{
