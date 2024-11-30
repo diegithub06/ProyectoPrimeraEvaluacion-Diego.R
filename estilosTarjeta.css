@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
 body {
-    background-image: url(images/grandes-companias-videojuegos-experimentan-fondo-inteligencia-artificial_98.webp);
+    background-image: url(images/49066cd709a43dcc797134a62b6eb91f.jpg);
+    background-size: cover;
+    
 }
 fieldset {
     background-color: #1b2838;

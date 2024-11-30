@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Jaro:opsz@6..72&family=Pacifico&family=Sixtyfour+Convergence&display=swap');
+
 h1{
-    font-family: "Pacifico";
+    font-family: "Sixtyfour Convergence";
     font-size: 50px;
     color: darkmagenta; 
     text-align: center;
 }
 h2{
-    font-family: "Caveat";
+    font-family: "Jaro";
     font-size: 30px;
     color: darkblue;
     text-align: center;
@@ -21,16 +23,21 @@ li{
 }
 a:link{
     color: blue;
-    font-family: bold;
-}
-a:hover{
-    color: yellow;
-    font-family: bold;
+    font-family: "Bebas Neue";
 }
 a:visited {
     color: darkorchid;
-    font-family: bold;
+    font-family: "Bebas Neue";
 }
+a:hover{
+    color: yellow;
+    font-family: "Bebas Neue";
+}
+a:active{
+    color: red;
+    font-family: "Bebas Neue";
+}
+
 table, th, tr, td{
     border: solid black;
     border-width: 33%;
@@ -54,9 +61,14 @@ img {
 }
 p {
     font-style: black;
+    font-family: "Bebas Neue" ;
+    font-size: 20px;
 }
 .Producto {
     background-color: black;
     border: solid yellow;
     
+}
+.Sedes{
+    text-align: center;
 }
