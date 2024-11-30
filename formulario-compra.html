@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilosCompra.css">
+</head>
+<body>
+    <fieldset>
+    <h2>Formulario de Compra</h2>
+    <p>Rellene el siguiente formulario con sus datos para realizar la compra</p>
+    <br>
+    <form action="ProcesarCompra.php" method="get"> 
+        <fieldset>
+            <p>
+                <label for="Nombre">Nombre: </label>
+                <input type="text" placeholder="Escriba su nombre" name="Nombre" id="Nombre" required>
+            </p>
+            <p>
+                <label for="Apellido1">Apellido 1: </label>
+                <input type="text" placeholder="Escriba su Apellido" name="Apelllido1" id="Apellido1" required>
+            </p>
+            <p>
+                <label for="Apellido2">Apellido 2: </label>
+                <input type="text" placeholder="Escriba su segundo apellido" name="Apelllido2" id="Apellido2">
+            </p>
+            <p>
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                <label for="Calle">Nombre de la calle: </label>
+                <input  type="text" placeholder="Ponga el nombre de su calle" name="Calle" id="Calle">
+            </p>
+            <p>
+                <label for="nºCalle">Número de puerta</label>
+                <input type="number" placeholder="nº de Puerta" name="nºPuerta" id="nºPuerta">
+            </p>
+            <p>
+                <input type="checkbox" value="informacion"
+                 id="informacion" >
+                <label for="informacion">Deseo recibir información sobre novedades y ofertas</label>
+            </p>
+        </fieldset>
+            <p>
+                <a href="Agradecimiento.html"><input type="submit" value="Realizar Compra"></a>
+                <input type="reset" value="Borrar todo">
+            </p>
+    </form>
+    </fieldset>
+</body>
+</html>

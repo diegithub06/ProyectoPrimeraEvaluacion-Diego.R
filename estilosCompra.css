@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+body {
+    background-image: url(images/grandes-companias-videojuegos-experimentan-fondo-inteligencia-artificial_98.webp);
+}
+fieldset {
+    background-color: #1b2838;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    ;
+}
+p {
+    color: white;
+}
+.Agradecimiento {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.VolveraInicio {
+    color: white;
+    text-align: justify;
+
+}
+.AgradecimientoField {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}

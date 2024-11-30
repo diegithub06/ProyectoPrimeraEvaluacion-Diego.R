@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilosTarjeta.css">
+</head>
+<body>
+    <fieldset>
+    <h2>Creación de Tarjeta</h2>
+    <p>Rellene el siguiente formulario con sus datos para realizar la compra</p>
+    <p>Si le gustaría tenerla en físico, una vez rellenado vaya a su tienda más cercana si quiere solicitarla en versión física</p>
+    <br>
+    <form action="ProcesarTarjeta.php" method="get"> 
+        <fieldset>
+            <p>
+                <label for="Nombre">Nombre: </label>
+                <input type="text" placeholder="Escriba su nombre" name="Nombre" id="Nombre" required>
+            </p>
+            <p>
+                <label for="Apellido1">Apellido 1: </label>
+                <input type="text" placeholder="Escriba su Apellido" name="Apelllido1" id="Apellido1" required>
+            </p>
+            <p>
+                <label for="Apellido2">Apellido 2: </label>
+                <input type="text" placeholder="Escriba su segundo apellido" name="Apelllido2" id="Apellido2">
+            </p>
+            <p>
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha">
+            </p>
+            <p>
+                <label for="DNI">DNI </label>
+                <input  type="file" name="DNI" id="DNI">
+            </p>
+            <p>
+                <label for="color">Color Tarjeta: </label>
+                <input type="radio" id="color" name="color" value="negra">
+                <label for="color">Negra</label>
+                <input type="radio" id="color" name="color" value="rosa">
+                <label for="color">Rosa</label>
+                <input type="radio" id="color" name="color" value="azul">
+                <label for="color">Azul</label>
+                <input type="radio" id="color" name="color" value="roja">
+                <label for="color">Roja</label>
+            </p>
+        </fieldset>
+            <p>
+                <input type="submit" value="Realizar Compra">
+                <input type="reset" value="Borrar todo">
+            </p>
+    </form>
+    </fieldset>
+</body>
+</html>
